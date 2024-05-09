@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page2</title>
+    <!--CSS stylesheet folder path-->
+    <link rel="stylesheet" href="settings.css"/>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="app">
+        <div class="nav">
+            <div class="nav_wrapper">
+                <ul class="nav_list">
+                    <li style="opacity: 0.5">DATA on</li>
+                    <li>Hate</li>
+                    <li>Crime</li>
+                    <li>in NYC</li>
+                </ul>
+                <div class="nav_description">
+                    <p>A list of recorded hate crime targeting different ethicnicity, gender identity and ages through nyc in the past 5 years
+                    </p>
+                    <ul class="nav_list">
+                        <li class="nav_list_item active" data-filter="all">ALL</li>
+                        <li class="nav_list_item" data-filter="visual">Queens</li>
+                        <li class="nav_list_item" data-filter="website">Bronx</li>
+                        <li class="nav_list_item" data-filter="editorial">Manhatten</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <section class="view">
+            <div class="view_wrapper">
+                 <!--Javascript code inhection-->
+            </div>
+        </section>
+    </main>
+    
+    <!--Javascript Script folder path-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
